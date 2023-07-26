@@ -1,0 +1,19 @@
+name: ci
+on: [push]
+
+jobs:
+  
+  publish:
+    if: github.event_name == 'push' && contains(github.ref, 'refs/tags/')
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      
+      - name: Publish Postman Collection
+        uses: fern-api/action-postman-sync@v1.8
+        with:
+          api-key: ${{ secrets.POSTMAN_API_KEY }}
+          workspace-id: ${{ secrets.POSTMAN_WORKSPACE }}
+          collection-path: collection.json
