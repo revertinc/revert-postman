@@ -49,7 +49,7 @@
           "item": [
             {
               "_type": "endpoint",
-              "name": "Get Unified Company",
+              "name": "Get Company",
               "request": {
                 "description": "Get details of a company",
                 "url": {
@@ -93,7 +93,7 @@
             },
             {
               "_type": "endpoint",
-              "name": "Get Unified Companies",
+              "name": "Get Companies",
               "request": {
                 "description": "Get all the companies",
                 "url": {
