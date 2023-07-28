@@ -278,7 +278,7 @@
           "item": [
             {
               "_type": "endpoint",
-              "name": "Get Unified Contact",
+              "name": "Get Contact",
               "request": {
                 "description": "Get details of a contact",
                 "url": {
@@ -322,7 +322,7 @@
             },
             {
               "_type": "endpoint",
-              "name": "Get Unified Contacts",
+              "name": "Get Contacts",
               "request": {
                 "description": "Get all the contacts",
                 "url": {
@@ -507,7 +507,7 @@
           "item": [
             {
               "_type": "endpoint",
-              "name": "Get Unified Deal",
+              "name": "Get Deal",
               "request": {
                 "description": "Get details of a deal",
                 "url": {
@@ -551,7 +551,7 @@
             },
             {
               "_type": "endpoint",
-              "name": "Get Unified Deals",
+              "name": "Get Deals",
               "request": {
                 "description": "Get all the deals",
                 "url": {
@@ -736,7 +736,7 @@
           "item": [
             {
               "_type": "endpoint",
-              "name": "Get Unified Event",
+              "name": "Get Event",
               "request": {
                 "description": "Get details of a event",
                 "url": {
@@ -780,7 +780,7 @@
             },
             {
               "_type": "endpoint",
-              "name": "Get Unified Events",
+              "name": "Get Events",
               "request": {
                 "description": "Get all the events",
                 "url": {
@@ -965,7 +965,7 @@
           "item": [
             {
               "_type": "endpoint",
-              "name": "Get Unified Lead",
+              "name": "Get Lead",
               "request": {
                 "description": "Get details of a lead",
                 "url": {
@@ -1009,7 +1009,7 @@
             },
             {
               "_type": "endpoint",
-              "name": "Get Unified Leads",
+              "name": "Get Leads",
               "request": {
                 "description": "Get all the leads",
                 "url": {
@@ -1194,7 +1194,7 @@
           "item": [
             {
               "_type": "endpoint",
-              "name": "Get Unified Note",
+              "name": "Get Note",
               "request": {
                 "description": "Get details of a note",
                 "url": {
@@ -1238,7 +1238,7 @@
             },
             {
               "_type": "endpoint",
-              "name": "Get Unified Notes",
+              "name": "Get Notes",
               "request": {
                 "description": "Get all the notes",
                 "url": {
@@ -1423,7 +1423,7 @@
           "item": [
             {
               "_type": "endpoint",
-              "name": "Get Unified Task",
+              "name": "Get Task",
               "request": {
                 "description": "Get details of a task",
                 "url": {
@@ -1467,7 +1467,7 @@
             },
             {
               "_type": "endpoint",
-              "name": "Get Unified Tasks",
+              "name": "Get Tasks",
               "request": {
                 "description": "Get all the tasks",
                 "url": {
@@ -1652,7 +1652,7 @@
           "item": [
             {
               "_type": "endpoint",
-              "name": "Get Unified User",
+              "name": "Get User",
               "request": {
                 "description": "Get details of a user",
                 "url": {
@@ -1696,7 +1696,7 @@
             },
             {
               "_type": "endpoint",
-              "name": "Get Unified Users",
+              "name": "Get Users",
               "request": {
                 "description": "Get all the users",
                 "url": {
