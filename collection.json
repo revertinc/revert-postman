@@ -56,7 +56,7 @@
                 "header": [
                   {
                     "key": "x-revert-api-token",
-                    "description": null,
+                    "description": "Your official API key for accessing revert apis.",
                     "type": "text",
                     "value": "\"example\""
                   }
@@ -103,7 +103,7 @@
                 "header": [
                   {
                     "key": "x-revert-api-token",
-                    "description": null,
+                    "description": "Your official API key for accessing revert apis.",
                     "type": "text",
                     "value": "\"example\""
                   }
@@ -134,7 +134,7 @@
                 "header": [
                   {
                     "key": "x-revert-api-token",
-                    "description": null,
+                    "description": "Your official API key for accessing revert apis.",
                     "type": "text",
                     "value": "\"example\""
                   }
@@ -180,7 +180,7 @@
                 "header": [
                   {
                     "key": "x-revert-api-token",
-                    "description": null,
+                    "description": "Your official API key for accessing revert apis.",
                     "type": "text",
                     "value": "\"example\""
                   }
@@ -226,7 +226,7 @@
                 "header": [
                   {
                     "key": "x-revert-api-token",
-                    "description": null,
+                    "description": "Your official API key for accessing revert apis.",
                     "type": "text",
                     "value": "\"example\""
                   }
