@@ -7,35 +7,11 @@
   "variable": [
     {
       "key": "baseUrl",
-      "value": "https://api.revert.dev",
-      "type": "string"
-    },
-    {
-      "key": "authorization",
-      "value": "",
+      "value": "http://localhost:4001",
       "type": "string"
     }
   ],
-  "auth": {
-    "type": "apikey",
-    "apikey": [
-      {
-        "key": "value",
-        "value": "{{authorization}}",
-        "type": "string"
-      },
-      {
-        "key": "key",
-        "value": "x-revert-public-token",
-        "type": "string"
-      },
-      {
-        "key": "in",
-        "value": "header",
-        "type": "string"
-      }
-    ]
-  },
+  "auth": null,
   "item": [
     {
       "_type": "container",
@@ -79,10 +55,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "GET",
@@ -126,10 +102,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "GET",
@@ -157,10 +133,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "POST",
@@ -203,10 +179,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "PATCH",
@@ -249,10 +225,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "POST",
@@ -308,10 +284,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "GET",
@@ -355,10 +331,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "GET",
@@ -386,10 +362,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "POST",
@@ -432,10 +408,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "PATCH",
@@ -478,10 +454,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "POST",
@@ -537,10 +513,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "GET",
@@ -584,10 +560,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "GET",
@@ -615,10 +591,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "POST",
@@ -661,10 +637,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "PATCH",
@@ -707,10 +683,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "POST",
@@ -766,10 +742,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "GET",
@@ -813,10 +789,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "GET",
@@ -844,10 +820,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "POST",
@@ -890,10 +866,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "PATCH",
@@ -936,10 +912,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "POST",
@@ -995,10 +971,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "GET",
@@ -1042,10 +1018,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "GET",
@@ -1073,10 +1049,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "POST",
@@ -1119,10 +1095,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "PATCH",
@@ -1165,10 +1141,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "POST",
@@ -1224,10 +1200,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "GET",
@@ -1271,10 +1247,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "GET",
@@ -1302,10 +1278,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "POST",
@@ -1348,10 +1324,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "PATCH",
@@ -1394,10 +1370,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "POST",
@@ -1453,10 +1429,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "GET",
@@ -1500,10 +1476,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "GET",
@@ -1531,10 +1507,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "POST",
@@ -1577,10 +1553,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "PATCH",
@@ -1623,10 +1599,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "POST",
@@ -1682,10 +1658,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "GET",
@@ -1729,10 +1705,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "GET",
@@ -1760,10 +1736,10 @@
                 },
                 "header": [
                   {
-                    "key": "x-revert-public-token",
-                    "value": "{{authorization}}",
-                    "type": "string",
-                    "description": null
+                    "key": "x-revert-api-token",
+                    "description": null,
+                    "type": "text",
+                    "value": "\"example\""
                   }
                 ],
                 "method": "POST",
@@ -1809,9 +1785,9 @@
             "header": [
               {
                 "key": "x-revert-public-token",
-                "value": "{{authorization}}",
-                "type": "string",
-                "description": null
+                "description": null,
+                "type": "text",
+                "value": "\"example\""
               }
             ],
             "method": "GET",
