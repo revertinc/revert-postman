@@ -49,7 +49,7 @@
                     {
                       "key": "id",
                       "value": "",
-                      "description": null
+                      "description": "The unique \\`id\\` of the company in the CRM."
                     }
                   ]
                 },
