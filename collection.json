@@ -16,6 +16,271 @@
     {
       "_type": "container",
       "description": null,
+      "name": "Connection",
+      "item": [
+        {
+          "_type": "endpoint",
+          "name": "Get Connection",
+          "request": {
+            "description": "Get details of a connection for a specific tenant.",
+            "url": {
+              "raw": "{{baseUrl}}/connection",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "connection"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "x-revert-api-token",
+                "description": "Your official API key for accessing revert apis.",
+                "type": "text",
+                "value": "\"example\""
+              },
+              {
+                "key": "x-api-version",
+                "description": "Optional Revert API version you're using. If missing we default to the latest version of the API.",
+                "type": "text",
+                "value": "\"example\""
+              },
+              {
+                "key": "x-revert-t-id",
+                "description": "The unique customer id used when the customer linked their account.",
+                "type": "text",
+                "value": "\"example\""
+              }
+            ],
+            "method": "GET",
+            "auth": null,
+            "body": null
+          },
+          "response": []
+        },
+        {
+          "_type": "endpoint",
+          "name": "Delete Connection",
+          "request": {
+            "description": "Delete a connection for a specific tenant.",
+            "url": {
+              "raw": "{{baseUrl}}/connection",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "connection"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "x-revert-api-token",
+                "description": "Your official API key for accessing revert apis.",
+                "type": "text",
+                "value": "\"example\""
+              },
+              {
+                "key": "x-api-version",
+                "description": "Optional Revert API version you're using. If missing we default to the latest version of the API.",
+                "type": "text",
+                "value": "\"example\""
+              },
+              {
+                "key": "x-revert-t-id",
+                "description": "The unique customer id used when the customer linked their account.",
+                "type": "text",
+                "value": "\"example\""
+              }
+            ],
+            "method": "DELETE",
+            "auth": null,
+            "body": null
+          },
+          "response": []
+        },
+        {
+          "_type": "endpoint",
+          "name": "Get All Connections",
+          "request": {
+            "description": "Get details of all the connection for a specific account at Revert.",
+            "url": {
+              "raw": "{{baseUrl}}/connection/all",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "connection",
+                "all"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "x-revert-api-token",
+                "description": "Your official API key for accessing revert apis.",
+                "type": "text",
+                "value": "\"example\""
+              },
+              {
+                "key": "x-api-version",
+                "description": "Optional Revert API version you're using. If missing we default to the latest version of the API.",
+                "type": "text",
+                "value": "\"example\""
+              }
+            ],
+            "method": "GET",
+            "auth": null,
+            "body": null
+          },
+          "response": []
+        },
+        {
+          "_type": "endpoint",
+          "name": "Create Webhook",
+          "request": {
+            "description": "Create a webhook endpoint that listens to a connection events of a specific tenant.",
+            "url": {
+              "raw": "{{baseUrl}}/connection/webhook",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "connection",
+                "webhook"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "x-revert-api-token",
+                "description": "Your official API key for accessing revert apis.",
+                "type": "text",
+                "value": "\"example\""
+              },
+              {
+                "key": "x-api-version",
+                "description": "Optional Revert API version you're using. If missing we default to the latest version of the API.",
+                "type": "text",
+                "value": "\"example\""
+              },
+              {
+                "key": "x-revert-t-id",
+                "description": "The unique customer id used when the customer linked their account.",
+                "type": "text",
+                "value": "\"example\""
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"webhookUrl\": \"example\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": []
+        },
+        {
+          "_type": "endpoint",
+          "name": "Get Webhook",
+          "request": {
+            "description": "Get details of a connection webhook for a specific tenant.",
+            "url": {
+              "raw": "{{baseUrl}}/connection/webhook",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "connection",
+                "webhook"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "x-revert-api-token",
+                "description": "Your official API key for accessing revert apis.",
+                "type": "text",
+                "value": "\"example\""
+              },
+              {
+                "key": "x-api-version",
+                "description": "Optional Revert API version you're using. If missing we default to the latest version of the API.",
+                "type": "text",
+                "value": "\"example\""
+              },
+              {
+                "key": "x-revert-t-id",
+                "description": "The unique customer id used when the customer linked their account.",
+                "type": "text",
+                "value": "\"example\""
+              }
+            ],
+            "method": "GET",
+            "auth": null,
+            "body": null
+          },
+          "response": []
+        },
+        {
+          "_type": "endpoint",
+          "name": "Delete Webhook",
+          "request": {
+            "description": "Delete the connection webhook for a specific tenant.",
+            "url": {
+              "raw": "{{baseUrl}}/connection/webhook",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "connection",
+                "webhook"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "x-revert-api-token",
+                "description": "Your official API key for accessing revert apis.",
+                "type": "text",
+                "value": "\"example\""
+              },
+              {
+                "key": "x-api-version",
+                "description": "Optional Revert API version you're using. If missing we default to the latest version of the API.",
+                "type": "text",
+                "value": "\"example\""
+              },
+              {
+                "key": "x-revert-t-id",
+                "description": "The unique customer id used when the customer linked their account.",
+                "type": "text",
+                "value": "\"example\""
+              }
+            ],
+            "method": "DELETE",
+            "auth": null,
+            "body": null
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_type": "container",
+      "description": null,
       "name": "Crm",
       "item": [
         {
