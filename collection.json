@@ -2020,6 +2020,64 @@
         {
           "_type": "container",
           "description": null,
+          "name": "Proxy",
+          "item": [
+            {
+              "_type": "endpoint",
+              "name": "Tunnel",
+              "request": {
+                "description": "Call the native CRM api for a specific connection",
+                "url": {
+                  "raw": "{{baseUrl}}/crm/proxy",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "crm",
+                    "proxy"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "x-revert-api-token",
+                    "description": "Your official API key for accessing revert apis.",
+                    "type": "text",
+                    "value": "\"example\""
+                  },
+                  {
+                    "key": "x-revert-t-id",
+                    "description": "The unique customer id used when the customer linked their account.",
+                    "type": "text",
+                    "value": "\"example\""
+                  },
+                  {
+                    "key": "x-api-version",
+                    "description": "Optional Revert API version you're using. If missing we default to the latest version of the API.",
+                    "type": "text",
+                    "value": "\"example\""
+                  }
+                ],
+                "method": "POST",
+                "auth": null,
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"path\": \"example\",\n    \"body\": \"UNKNOWN\",\n    \"method\": \"example\",\n    \"queryParams\": \"UNKNOWN\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "_type": "container",
+          "description": null,
           "name": "Task",
           "item": [
             {
