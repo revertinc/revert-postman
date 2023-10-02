@@ -1442,6 +1442,126 @@
         {
           "_type": "container",
           "description": null,
+          "name": "Field Mapping",
+          "item": [
+            {
+              "_type": "container",
+              "description": null,
+              "name": "Field Mapping",
+              "item": [
+                {
+                  "_type": "endpoint",
+                  "name": "Get Field Mapping",
+                  "request": {
+                    "description": "Get field mappings for a connection",
+                    "url": {
+                      "raw": "{{baseUrl}}/crm/field-mapping",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "crm",
+                        "field-mapping"
+                      ],
+                      "query": [],
+                      "variable": []
+                    },
+                    "header": [
+                      {
+                        "key": "x-revert-api-token",
+                        "description": "Your official API key for accessing revert apis.",
+                        "type": "text",
+                        "value": "\"example\""
+                      },
+                      {
+                        "key": "x-revert-t-id",
+                        "description": "The unique customer id used when the customer linked their account.",
+                        "type": "text",
+                        "value": "\"example\""
+                      },
+                      {
+                        "key": "x-revert-t-token",
+                        "description": "The temp used to identify tenant.",
+                        "type": "text",
+                        "value": "\"example\""
+                      },
+                      {
+                        "key": "x-api-version",
+                        "description": "Optional Revert API version you're using. If missing we default to the latest version of the API.",
+                        "type": "text",
+                        "value": "\"example\""
+                      }
+                    ],
+                    "method": "GET",
+                    "auth": null,
+                    "body": null
+                  },
+                  "response": []
+                },
+                {
+                  "_type": "endpoint",
+                  "name": "Create Field Mapping",
+                  "request": {
+                    "description": "Create field mappings for a connection",
+                    "url": {
+                      "raw": "{{baseUrl}}/crm/field-mapping",
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "path": [
+                        "crm",
+                        "field-mapping"
+                      ],
+                      "query": [],
+                      "variable": []
+                    },
+                    "header": [
+                      {
+                        "key": "x-revert-api-token",
+                        "description": "Your official API key for accessing revert apis.",
+                        "type": "text",
+                        "value": "\"example\""
+                      },
+                      {
+                        "key": "x-revert-t-id",
+                        "description": "The unique customer id used when the customer linked their account.",
+                        "type": "text",
+                        "value": "\"example\""
+                      },
+                      {
+                        "key": "x-revert-t-token",
+                        "description": "The temp used to identify tenant.",
+                        "type": "text",
+                        "value": "\"example\""
+                      },
+                      {
+                        "key": "x-api-version",
+                        "description": "Optional Revert API version you're using. If missing we default to the latest version of the API.",
+                        "type": "text",
+                        "value": "\"example\""
+                      }
+                    ],
+                    "method": "POST",
+                    "auth": null,
+                    "body": {
+                      "mode": "raw",
+                      "raw": "{\n    \"standardMappings\": [\n        {\n            \"sourceFieldName\": \"example\",\n            \"targetFieldName\": \"example\",\n            \"object\": \"example\"\n        }\n    ],\n    \"customMappings\": [\n        null\n    ]\n}",
+                      "options": {
+                        "raw": {
+                          "language": "json"
+                        }
+                      }
+                    }
+                  },
+                  "response": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_type": "container",
+          "description": null,
           "name": "Lead",
           "item": [
             {
@@ -2006,6 +2126,121 @@
                 "body": {
                   "mode": "raw",
                   "raw": "{\n    \"searchCriteria\": \"UNKNOWN\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "_type": "container",
+          "description": null,
+          "name": "Properties",
+          "item": [
+            {
+              "_type": "endpoint",
+              "name": "Get Object Properties",
+              "request": {
+                "description": "Get object properties for connection",
+                "url": {
+                  "raw": "{{baseUrl}}/crm/properties/:objectName",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "crm",
+                    "properties",
+                    ":objectName"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "key": "objectName",
+                      "value": "",
+                      "description": null
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "x-revert-api-token",
+                    "description": "Your official API key for accessing revert apis.",
+                    "type": "text",
+                    "value": "\"example\""
+                  },
+                  {
+                    "key": "x-revert-t-id",
+                    "description": "The unique customer id used when the customer linked their account.",
+                    "type": "text",
+                    "value": "\"example\""
+                  },
+                  {
+                    "key": "x-api-version",
+                    "description": "Optional Revert API version you're using. If missing we default to the latest version of the API.",
+                    "type": "text",
+                    "value": "\"example\""
+                  }
+                ],
+                "method": "GET",
+                "auth": null,
+                "body": null
+              },
+              "response": []
+            },
+            {
+              "_type": "endpoint",
+              "name": "Set Custom Properties",
+              "request": {
+                "description": "Set custom properties on an object for a given connection",
+                "url": {
+                  "raw": "{{baseUrl}}/crm/properties/:objectName",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "crm",
+                    "properties",
+                    ":objectName"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "key": "objectName",
+                      "value": "",
+                      "description": null
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "x-revert-api-token",
+                    "description": "Your official API key for accessing revert apis.",
+                    "type": "text",
+                    "value": "\"example\""
+                  },
+                  {
+                    "key": "x-revert-t-id",
+                    "description": "The unique customer id used when the customer linked their account.",
+                    "type": "text",
+                    "value": "\"example\""
+                  },
+                  {
+                    "key": "x-api-version",
+                    "description": "Optional Revert API version you're using. If missing we default to the latest version of the API.",
+                    "type": "text",
+                    "value": "\"example\""
+                  }
+                ],
+                "method": "POST",
+                "auth": null,
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"groupName\": \"example\",\n    \"type\": \"example\",\n    \"fieldName\": \"example\",\n    \"fieldType\": \"example\",\n    \"fieldDescription\": \"example\"\n}",
                   "options": {
                     "raw": {
                       "language": "json"
