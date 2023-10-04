@@ -2240,7 +2240,7 @@
                 "auth": null,
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n    \"groupName\": \"example\",\n    \"type\": \"example\",\n    \"fieldName\": \"example\",\n    \"fieldType\": \"example\",\n    \"fieldDescription\": \"example\"\n}",
+                  "raw": "{\n    \"additional\": \"UNKNOWN\",\n    \"name\": \"example\",\n    \"type\": \"example\",\n    \"description\": \"example\"\n}",
                   "options": {
                     "raw": {
                       "language": "json"
